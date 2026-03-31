@@ -7,7 +7,7 @@ on:
       - test
       - dev
     paths:
-      - '/code/**'
+      - 'code/**'
 
 
   pull_request:
@@ -16,7 +16,7 @@ on:
       - test
       - dev
     paths:
-      - '/code/**'
+      - 'code/**'
 env:
   TF_LOG: INFO
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
